@@ -1,0 +1,117 @@
+h1 { 
+	color: rgb(110, 41, 16); 
+	margin-bottom: -5px; 
+} 
+p { 
+	margin-bottom: -10px; 
+} 
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 90px; 
+	height: 90px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 27px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+#b1{ 
+    background-color: rgb(232, 178, 107);
+	border-bottom: 1px solid rgb(87, 86, 86); 
+	border-right: 1.125px solid rgb(71, 69, 69); 
+} 
+
+#b2 { 
+    background-color: rgb(232, 178, 107);
+	border-bottom: 1px solid rgb(129, 123, 123); 
+	border-right: 1.125px solid gray; 
+	border-left: 1.125px solid gray; 
+} 
+
+#b3 { 
+    background-color: rgb(232, 178, 107);
+	border-bottom: 1px solid gray; 
+	border-left: 1.125px solid gray; 
+} 
+
+#b4 { 
+    background-color: rgb(232, 178, 107);
+	border-top: 1.125px solid rgb(130, 124, 124); 
+	border-bottom: 1px solid rgb(102, 99, 99); 
+	border-right: 1.125px solid rgb(103, 100, 100); 
+} 
+	
+#b5 { 
+    background-color: rgb(232, 178, 107);
+	border: 1.125px solid rgb(98, 96, 96); 
+} 
+
+#b6 { 
+    background-color: rgb(232, 178, 107);
+	border-top: 1.125px solid rgb(80, 77, 77); 
+	border-bottom: 1px solid rgb(97, 96, 96); 
+	border-left: 1.125px solid rgb(86, 82, 82); 
+} 
+
+#b7 { 
+    background-color: rgb(232, 178, 107);
+	border-top: 1.125px solid rgb(105, 105, 105); 
+	border-right: 1.125px solid rgb(103, 99, 99); 
+} 
+
+#b8 { 
+    background-color: rgb(232, 178, 107);
+	border-top: 1.125px solid rgb(101, 98, 98); 
+	border-right: 1.125px solid rgb(104, 102, 102); 
+	border-left: 1.125px solid rgb(104, 96, 96); 
+} 
+
+#b9 { 
+    background-color: rgb(232, 178, 107);
+	border-top: 1.125px solid rgb(116, 112, 112); 
+	border-left: 1.125px solid rgb(131, 121, 121); 
+} 
+#but { 
+	box-sizing: border-box; 
+	width: 100px; 
+	height: 49px; 
+	border: 1.125px solid rgb(88, 148, 209); 
+	margin-left: auto; 
+	border-radius: 9px; 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+
+	background-color: rgb(33, 32, 32); 
+	color: rgb(43, 146, 248); 
+	font-size: 25px; 
+	cursor: pointer; 
+}
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: rgb(20, 20, 21); 
+	font-size: 30px; 
+    padding: 25px;
+} 
+#main { 
+	text-align: center; 
+    background-color: rgb(177, 205, 135);
+    font-size: 25px;
+} 
+#ins { 
+	font-family: Verdana,Geneva, 
+					Tahoma, sans-serif; 
+	color: rgb(31, 134, 236); 
+}
